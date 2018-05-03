@@ -1,9 +1,7 @@
-const a = 3;
-const b = 2;
-const c = 'asda';
+const sum = (num1, num2) => num1 + num2;
+const sub = (num1, num2) => num1 - num2;
+const mult = (num1, num2) => num1 * num2;
+const div = (num1, num2) => ((num2 === 0) ? 'isn\'t possible division by zero' : (num1 / num2));
 
-function sum() {
-  return a + b + c;
-}
+export { sum, sub, mult, div };
 
-sum();
