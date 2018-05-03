@@ -11,4 +11,4 @@ function foo() {
   return 'bla';
 }
 
-export default { fizzBuzz, foo };
+export default fizzBuzz;
